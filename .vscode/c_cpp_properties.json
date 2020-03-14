@@ -1,0 +1,67 @@
+{
+    "configurations": [
+        {
+            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags"
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "d:/MY_DATA/CODE/TEST-Inputs2Midi/include",
+                "d:/MY_DATA/CODE/TEST-Inputs2Midi/src",
+                "C:/Users/info/.platformio/packages/framework-arduino-sam/libraries/SPI/src",
+                "d:/MY_DATA/CODE/TEST-Inputs2Midi/.pio/libdeps/due/MIDIUSB_ID1104/src",
+                "C:/Users/info/.platformio/packages/framework-arduino-sam/cores/arduino",
+                "C:/Users/info/.platformio/packages/framework-arduino-sam/system/libsam",
+                "C:/Users/info/.platformio/packages/framework-arduino-sam/system/CMSIS/CMSIS/Include",
+                "C:/Users/info/.platformio/packages/framework-arduino-sam/system/CMSIS/Device/ATMEL",
+                "C:/Users/info/.platformio/packages/framework-arduino-sam/variants/arduino_due_x",
+                "C:/Users/info/.platformio/packages/framework-arduino-sam/libraries/HID/src",
+                "C:/Users/info/.platformio/packages/framework-arduino-sam/libraries/Wire/src",
+                "C:/Users/info/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "d:/MY_DATA/CODE/TEST-Inputs2Midi/include",
+                    "d:/MY_DATA/CODE/TEST-Inputs2Midi/src",
+                    "C:/Users/info/.platformio/packages/framework-arduino-sam/libraries/SPI/src",
+                    "d:/MY_DATA/CODE/TEST-Inputs2Midi/.pio/libdeps/due/MIDIUSB_ID1104/src",
+                    "C:/Users/info/.platformio/packages/framework-arduino-sam/cores/arduino",
+                    "C:/Users/info/.platformio/packages/framework-arduino-sam/system/libsam",
+                    "C:/Users/info/.platformio/packages/framework-arduino-sam/system/CMSIS/CMSIS/Include",
+                    "C:/Users/info/.platformio/packages/framework-arduino-sam/system/CMSIS/Device/ATMEL",
+                    "C:/Users/info/.platformio/packages/framework-arduino-sam/variants/arduino_due_x",
+                    "C:/Users/info/.platformio/packages/framework-arduino-sam/libraries/HID/src",
+                    "C:/Users/info/.platformio/packages/framework-arduino-sam/libraries/Wire/src",
+                    "C:/Users/info/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=40201",
+                "__SAM3X8E__",
+                "ARDUINO_ARCH_SAM",
+                "ARDUINO_SAM_DUE",
+                "F_CPU=84000000L",
+                "USBCON",
+                "ARDUINO=10805",
+                "USB_VID=0x2341",
+                "USB_PID=0x003E",
+                "USB_PRODUCT=\"Arduino Due\"",
+                "USB_MANUFACTURER=\"Arduino\"",
+                ""
+            ],
+            "intelliSenseMode": "clang-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "C:/Users/info/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m3",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
